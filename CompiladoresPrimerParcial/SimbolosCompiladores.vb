@@ -7,6 +7,10 @@ Imports CompiladoresPrimerParcial.TablaSimbolosParsing
 
 Public Class SimbolosCompiladores
 
+    Public Sub New()
+
+    End Sub
+
     Public Property objetoEntrada As New CompiladoresPrimerParcial.Entrada
     Public Property auxEntradaObjeto As New Entrada
     Public Property auxTabla As New TablaSimbolosParsing
