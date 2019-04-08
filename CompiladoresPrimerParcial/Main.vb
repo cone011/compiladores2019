@@ -3,7 +3,9 @@ Imports System.Xml
 Imports System.Xml.Serialization
 Imports System.Data
 
-
+''' <summary>
+''' Lee un archivo y retorna un txt
+''' </summary>
 Module Main
 
     Public Property objetoEntrada As New CompiladoresPrimerParcial.Entrada
@@ -24,6 +26,8 @@ Module Main
         Dim sw As New System.IO.StreamWriter(fic) 'para leer el fichero 
         Dim texto As String = sr.ReadToEnd()
         For Each aux As String In texto
+            'Pregunta si es numero alfanumerico o simbolo retorna el valor 
+            'en una lista de objeto y lo guarda tambien en un txt
             numerico.esSimboloNumero(aux, contador)
             simbolos.esSimbolo(aux, contador)
             alfanumerico.esAlfaNumerico(aux, contador)

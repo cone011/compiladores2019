@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{23094565-1846-42C4-AF66-D9749CBB9483}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>CompiladoresPrimerParcial.Module1</StartupObject>
+    <StartupObject>CompiladoresPrimerParcial.Main</StartupObject>
     <RootNamespace>CompiladoresPrimerParcial</RootNamespace>
     <AssemblyName>CompiladoresPrimerParcial</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -73,7 +73,7 @@
     <Compile Include="AnalizadorLexico.vb" />
     <Compile Include="DefinicionesCompilador.vb" />
     <Compile Include="Entrada.vb" />
-    <Compile Include="Module1.vb" />
+    <Compile Include="Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

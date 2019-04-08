@@ -3,6 +3,10 @@ Imports System.Xml
 Imports System.Xml.Serialization
 Imports System.Data
 
+''' <summary>
+''' Clase para definir las constantes de un compilador
+''' </summary>
+
 Public Class DefinicionesCompilador
     Public Sub New()
 

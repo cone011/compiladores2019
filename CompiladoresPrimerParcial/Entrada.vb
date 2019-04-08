@@ -3,6 +3,10 @@ Imports System.Xml
 Imports System.Xml.Serialization
 Imports System.Data
 
+
+''' <summary>
+''' Creacion de la clase entrada
+''' </summary>
 Public Class Entrada
 
     Public Sub New()

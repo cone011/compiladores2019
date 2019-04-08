@@ -11,11 +11,16 @@ Public Class SimbolosCompiladores
 
     End Sub
 
+#Region "Variables"
     Public Property objetoEntrada As New CompiladoresPrimerParcial.Entrada
     Public Property auxEntradaObjeto As New Entrada
     Public Property auxTabla As New TablaSimbolosParsing
     Public Property utiilidades As New Utilidades
 
+#End Region
+
+
+#Region "Procedimientos Y Funciones"
     Public Sub esSimbolo(caracter As String, posicion As Integer)
         Select Case caracter
             Case "="
@@ -90,5 +95,7 @@ Public Class SimbolosCompiladores
                 End If
         End Select
     End Sub
+#End Region
+
 
 End Class

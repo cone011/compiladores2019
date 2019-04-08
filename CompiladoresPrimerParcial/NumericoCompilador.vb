@@ -5,16 +5,20 @@ Imports System.Data
 
 Public Class NumericoCompilador
 
+#Region "Variables"
     Public Property objetoEntrada As New CompiladoresPrimerParcial.Entrada
     Public Property auxEntradaObjeto As New Entrada
     Public Property auxTabla As New TablaSimbolosParsing
     Public Property utiilidades As New Utilidades
     Public Property estado As Integer
 
+#End Region
+
     Public Sub New()
 
     End Sub
 
+#Region "FuncionesyProcedimientos"
     Public Function simboloNumero(caracter As String) As Integer
         Select Case caracter
             Case IsNumeric(caracter)
@@ -83,5 +87,8 @@ Public Class NumericoCompilador
                 objetoEntrada.Complex = CompiladoresPrimerParcial.DefinicionesCompilador.NUM
         End Select
     End Sub
+#End Region
+
+
 
 End Class

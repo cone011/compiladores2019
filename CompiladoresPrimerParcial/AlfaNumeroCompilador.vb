@@ -4,6 +4,9 @@ Imports System.Xml.Serialization
 Imports System.Data
 Imports CompiladoresPrimerParcial
 
+''' <summary>
+''' Creacion de la Clase AlfaNumeroCompilador
+''' </summary>
 Public Class AlfaNumeroCompilador
 
     Public Sub New()
@@ -21,7 +24,11 @@ Public Class AlfaNumeroCompilador
 #End Region
 
 #Region "Funciones&Procedimientos AlfaNumeroCompilador"
-
+    ''' <summary>
+    ''' Funcion que revisa si es alfanumerico
+    ''' </summary>
+    ''' <param name="caracter"></param>
+    ''' <param name="numero"></param>
     Public Sub esAlfaNumerico(caracter As String, numero As Integer)
 
         If String.IsNullOrEmpty(caracter) Then
